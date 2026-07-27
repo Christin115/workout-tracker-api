@@ -16,7 +16,6 @@ from server.schemas import (
     workouts_schema,
 )
 
-
 app = Flask(__name__)
 
 BASE_DIR = Path(__file__).resolve().parent
